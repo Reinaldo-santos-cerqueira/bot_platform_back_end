@@ -2,13 +2,15 @@
   "name": "bot_platform_back_end",
   "version": "1.0.0",
   "main": "server.js",
+  "type":"module",
   "repository": "https://github.com/Reinaldo-santos-cerqueira/bot_platform_back_end",
   "author": "Reinaldo-santos-cerqueira <kingnaldoreinaldo@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "@types/express": "^4.17.17",
     "@types/node": "^20.2.3",
-    "@typescript-eslint/eslint-plugin": "^5.43.0",
+    "@typescript-eslint/eslint-plugin": "^5.59.8",
+    "@typescript-eslint/parser": "^5.59.8",
     "eslint": "^8.0.1",
     "eslint-config-standard-with-typescript": "^34.0.1",
     "eslint-plugin-import": "^2.25.2",
@@ -20,7 +22,7 @@
     "vitest": "^0.31.1"
   },
   "scripts": {
-    "dev": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules src/server.ts",
+    "dev": "node --watch ./src/server.js",
     "build": "tsc --build"
   },
   "dependencies": {
@@ -28,6 +30,7 @@
     "cors": "^2.8.5",
     "express": "^4.18.2",
     "jsonwebtoken": "^9.0.0",
-    "ts-node-dev": "^2.0.0"
+    "ts-node-dev": "^2.0.0",
+    "venom-bot": "^5.0.1"
   }
 }

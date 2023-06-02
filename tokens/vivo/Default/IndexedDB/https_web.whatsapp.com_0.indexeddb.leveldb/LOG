@@ -1,0 +1,33 @@
+2023/06/02-17:59:48.210 f276 Reusing MANIFEST /home/reinaldo-santos/Documentos/bot_platform_back_end/tokens/vivo/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/06/02-17:59:48.211 f276 Recovering log #68
+2023/06/02-17:59:48.270 f276 Reusing old log /home/reinaldo-santos/Documentos/bot_platform_back_end/tokens/vivo/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000068.log 
+2023/06/02-18:00:13.862 f27c Level-0 table #76: started
+2023/06/02-18:00:13.930 f27c Level-0 table #76: 1078246 bytes OK
+2023/06/02-18:00:13.934 f27c Delete type=0 #68
+2023/06/02-18:00:14.925 f27c Compacting 1@1 + 4@2 files
+2023/06/02-18:00:14.997 f27c Generated table #77@1: 20363 keys, 2184788 bytes
+2023/06/02-18:00:15.063 f27c Generated table #78@1: 20568 keys, 2215913 bytes
+2023/06/02-18:00:15.146 f27c Generated table #79@1: 71030 keys, 2210579 bytes
+2023/06/02-18:00:15.219 f27c Generated table #80@1: 74113 keys, 1453307 bytes
+2023/06/02-18:00:15.219 f27c Compacted 1@1 + 4@2 files => 8064587 bytes
+2023/06/02-18:00:15.221 f27c compacted to: files[ 0 0 4 0 0 0 0 ]
+2023/06/02-18:00:15.221 f27c Delete type=2 #71
+2023/06/02-18:00:15.221 f27c Delete type=2 #72
+2023/06/02-18:00:15.221 f27c Delete type=2 #70
+2023/06/02-18:00:15.221 f27c Delete type=2 #76
+2023/06/02-18:00:15.221 f27c Delete type=2 #73
+2023/06/02-18:00:35.554 f27c Level-0 table #82: started
+2023/06/02-18:00:35.621 f27c Level-0 table #82: 1040352 bytes OK
+2023/06/02-18:00:35.623 f27c Delete type=0 #75
+2023/06/02-18:00:36.631 f27c Compacting 1@1 + 4@2 files
+2023/06/02-18:00:36.716 f27c Generated table #83@1: 21016 keys, 2184934 bytes
+2023/06/02-18:00:36.795 f27c Generated table #84@1: 20551 keys, 2215831 bytes
+2023/06/02-18:00:36.871 f27c Generated table #85@1: 62838 keys, 2200844 bytes
+2023/06/02-18:00:36.946 f27c Generated table #86@1: 99183 keys, 1944392 bytes
+2023/06/02-18:00:36.946 f27c Compacted 1@1 + 4@2 files => 8546001 bytes
+2023/06/02-18:00:36.947 f27c compacted to: files[ 0 0 4 0 0 0 0 ]
+2023/06/02-18:00:36.948 f27c Delete type=2 #80
+2023/06/02-18:00:36.948 f27c Delete type=2 #82
+2023/06/02-18:00:36.948 f27c Delete type=2 #79
+2023/06/02-18:00:36.948 f27c Delete type=2 #77
+2023/06/02-18:00:36.948 f27c Delete type=2 #78

@@ -1,0 +1,37 @@
+2023/06/02-17:57:32.342 f067 Reusing MANIFEST /home/reinaldo-santos/Documentos/bot_platform_back_end/tokens/tim/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/06/02-17:57:32.343 f067 Recovering log #85
+2023/06/02-17:57:32.458 f067 Reusing old log /home/reinaldo-santos/Documentos/bot_platform_back_end/tokens/tim/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000085.log 
+2023/06/02-17:57:48.736 f069 Level-0 table #94: started
+2023/06/02-17:57:48.787 f069 Level-0 table #94: 1092423 bytes OK
+2023/06/02-17:57:48.795 f069 Delete type=0 #85
+2023/06/02-17:57:49.093 f069 Compacting 1@1 + 5@2 files
+2023/06/02-17:57:49.209 f069 Generated table #95@1: 26632 keys, 2192426 bytes
+2023/06/02-17:57:49.262 f069 Generated table #96@1: 3531 keys, 2160167 bytes
+2023/06/02-17:57:49.386 f069 Generated table #97@1: 31413 keys, 2246165 bytes
+2023/06/02-17:57:49.502 f069 Generated table #98@1: 62262 keys, 2203229 bytes
+2023/06/02-17:57:49.555 f069 Generated table #99@1: 45861 keys, 1048279 bytes
+2023/06/02-17:57:49.555 f069 Compacted 1@1 + 5@2 files => 9850266 bytes
+2023/06/02-17:57:49.557 f069 compacted to: files[ 0 0 5 0 0 0 0 ]
+2023/06/02-17:57:49.558 f069 Delete type=2 #91
+2023/06/02-17:57:49.558 f069 Delete type=2 #87
+2023/06/02-17:57:49.558 f069 Delete type=2 #90
+2023/06/02-17:57:49.558 f069 Delete type=2 #94
+2023/06/02-17:57:49.558 f069 Delete type=2 #88
+2023/06/02-17:57:49.558 f069 Delete type=2 #89
+2023/06/02-17:58:28.747 f069 Level-0 table #101: started
+2023/06/02-17:58:28.825 f069 Level-0 table #101: 1082834 bytes OK
+2023/06/02-17:58:28.828 f069 Delete type=0 #93
+2023/06/02-17:58:29.802 f06d Compacting 1@1 + 5@2 files
+2023/06/02-17:58:29.879 f06d Generated table #102@1: 27151 keys, 2192029 bytes
+2023/06/02-17:58:29.918 f06d Generated table #103@1: 3497 keys, 2160144 bytes
+2023/06/02-17:58:29.989 f06d Generated table #104@1: 31188 keys, 2243350 bytes
+2023/06/02-17:58:30.071 f06d Generated table #105@1: 56357 keys, 2195709 bytes
+2023/06/02-17:58:30.127 f06d Generated table #106@1: 67405 keys, 1523450 bytes
+2023/06/02-17:58:30.127 f06d Compacted 1@1 + 5@2 files => 10314682 bytes
+2023/06/02-17:58:30.129 f06d compacted to: files[ 0 0 5 0 0 0 0 ]
+2023/06/02-17:58:30.129 f06d Delete type=2 #101
+2023/06/02-17:58:30.129 f06d Delete type=2 #98
+2023/06/02-17:58:30.129 f06d Delete type=2 #97
+2023/06/02-17:58:30.129 f06d Delete type=2 #96
+2023/06/02-17:58:30.129 f06d Delete type=2 #99
+2023/06/02-17:58:30.129 f06d Delete type=2 #95
