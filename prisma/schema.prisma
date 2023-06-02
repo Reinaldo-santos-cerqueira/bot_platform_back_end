@@ -1,0 +1,68 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model Enterprise {
+  id                    BigInt                  @id @default(autoincrement())
+  name                  String
+  cnpj                  String
+  area                  String
+  blocked               Boolean
+  phoneNumber           String
+  email                 String
+  MessageSendClient     MessageSendClient[]
+  MessageSendEnterprise MessageSendEnterprise[]
+  RelClientEnterprise   RelClientEnterprise[]
+}
+
+model Client {
+  id                    BigInt                  @id @default(autoincrement())
+  name                  String
+  phoneNumber           String
+  MessageSendClient     MessageSendClient[]
+  MessageSendEnterprise MessageSendEnterprise[]
+  RelClientEnterprise   RelClientEnterprise[]
+}
+
+model RelClientEnterprise {
+  idClient     BigInt
+  idEnterprise BigInt
+  Client       Client     @relation(fields: [idClient], references: [id])
+  Enterprise   Enterprise @relation(fields: [idEnterprise], references: [id])
+
+  @@id([idClient, idEnterprise])
+  @@index([idEnterprise], map: "RelClientEnterprise_idEnterprise_fkey")
+}
+
+model MessageSendClient {
+  id           BigInt     @id @default(autoincrement())
+  content      String
+  datetime     DateTime   @default(now())
+  stage        BigInt
+  idClient     BigInt
+  idEnterprise BigInt
+  Client       Client     @relation(fields: [idClient], references: [id])
+  Enterprise   Enterprise @relation(fields: [idEnterprise], references: [id])
+
+  @@index([idClient], map: "MessageSendClient_idClient_fkey")
+  @@index([idEnterprise], map: "MessageSendClient_idEnterprise_fkey")
+}
+
+model MessageSendEnterprise {
+  id           BigInt     @id @default(autoincrement())
+  content      String
+  datetime     DateTime   @default(now())
+  stage        BigInt
+  idClient     BigInt
+  idEnterprise BigInt
+  Client       Client     @relation(fields: [idClient], references: [id])
+  Enterprise   Enterprise @relation(fields: [idEnterprise], references: [id])
+
+  @@index([idClient], map: "MessageSendEnterprise_idClient_fkey")
+  @@index([idEnterprise], map: "MessageSendEnterprise_idEnterprise_fkey")
+}
